@@ -1,0 +1,28 @@
+#welcome{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "z-ifr z-info"
+                        "z-citat z-citat";
+   
+}
+
+#ifr{
+    grid-area: z-ifr;
+}
+
+#citat{
+    grid-area:z-citat;
+    
+}
+
+#welcome-info{
+    grid-area: z-info;
+    
+}
+
+@media screen and (max-width:1500px)
+{
+    #welcome{
+    display: block;
+    }
+}

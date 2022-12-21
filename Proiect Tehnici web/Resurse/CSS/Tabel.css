@@ -1,0 +1,66 @@
+table, td{
+    
+    border: 2px solid black;
+    margin-top: 4%;
+    margin-left: 5%;
+    
+    
+    
+    
+    
+}
+
+caption{
+    caption-side: bottom;
+}
+
+tr.imp{
+   background-color: var(--c4);
+}
+
+tr.par{
+    background-color: var(--c5);
+}
+
+th{
+    
+    align-content: center;
+    font-weight: bold;
+    border: 1px solid;
+    border: 2px solid black;
+}
+
+table{
+    width: 800px;
+    height:80%;
+    background-color: var(--c2);
+    position: relative;
+    
+    
+}
+td{
+    text-align: center;
+    width:16%;
+}
+
+tr.imp:hover,tr.par:hover{
+    background-color: var(--c2);
+    transition: 0.2s linear;
+}
+
+tfoot{
+    font-weight: bold;
+}
+
+@media screen and (max-width:1500px){
+    table{
+        border-collapse: collapse;
+        margin-top: 0;
+        margin-left:0;
+    }
+
+    #zona2{
+        overflow:scroll;
+    }
+}
+

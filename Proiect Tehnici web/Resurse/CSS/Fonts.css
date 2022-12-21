@@ -1,0 +1,9 @@
+@font-face{
+    font-family:rubik;
+    src:url(RubikVinyl-Regular.ttf);
+}
+
+header>h1{
+    font-family:rubik;
+    
+}

@@ -1,0 +1,43 @@
+#cerc{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    background-color: var(--c1);
+    text-align: center;
+    font-size: 50px;
+    position:fixed;
+    right:30px;
+    bottom: 30px;
+    opacity: 0.5;
+    outline-style: solid;
+    outline-color: var(--c3);
+    
+    
+    
+
+}
+
+#cerc>a {
+    color:var(--c4);
+}
+
+#ttt{
+  visibility: hidden;
+  font-size: 20px;
+  width: 50px;
+  background-color:var(--c1);
+  text-align: center;
+  border-radius: 6px;
+  position: relative;
+  top:-120px;
+}
+
+#cerc:hover #ttt{
+    visibility: visible;
+}
+
+#cerc:hover{
+    transition: 0.1s linear;
+    box-shadow: 0px 0px 10px;
+    opacity: 1.0;
+}

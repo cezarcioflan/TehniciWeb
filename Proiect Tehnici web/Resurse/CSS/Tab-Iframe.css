@@ -1,0 +1,76 @@
+
+
+
+
+.container{
+    width: 200px;
+    display: flex;
+}
+
+
+
+
+
+#tab1>a{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    
+}
+
+#tab2>a{
+    position: absolute;
+    bottom: 20px;
+    left:20px;
+}
+
+
+
+#tab1{
+    flex:50%;
+}
+#tab2{
+    flex:50%;
+}
+
+
+
+.tab-iframe{
+    height: 70px;
+    width: 50px;
+    background-color:var(--c5);
+    text-align: center;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius:6px;
+    outline-style: double;
+    outline-color: var(--c1);
+    position:relative;
+    
+
+}
+
+@keyframes miscare{
+    from{height: 70px;}
+    to{height: 100px;}
+}
+
+
+
+@media screen and (min-width:1500px) {  
+.tab-iframe:hover {
+    
+    
+
+    animation:miscare;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    background-color: var(--c1);
+    transition: linear 1s;
+    
+}
+
+
+
+
+}
+
